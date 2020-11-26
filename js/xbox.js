@@ -1,5 +1,3 @@
-'use strict'
-
 function numberbox(){
     let num1 = prompt('How many games do you play?');
     let num2 = prompt('How many hours do you play a day?');
