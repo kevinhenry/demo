@@ -1,3 +1,5 @@
+'use strict'
+
 function numberbox(){
     let num1 = prompt('How many games do you play?');
     let num2 = prompt('How many hours do you play a day?');
@@ -42,26 +44,4 @@ function numberbox(){
       return a*b;
     }
     
-
-
-    function burgerpictures(){
-        let burger='';
-        let answer = prompt('What star rating would you give burgers, 1-5?');
-        // Try adding logic that makes sure they are putting in 1-5
-        // and make sure they are putting in a real number
-        // make your for loop go up to the number that they put in within the range of 1-5
-        
-        for(let i=1;i <= 5;i++){
-         burger = burger + '<li> <img src="https://d1zj8ir38bm4sy.cloudfront.net/wp-content/uploads/2019/10/950x850-akaushi-burger.jpg"></li>';
-    
-        }
-        return burger;
-    }
-    
-    //let image = '<img src="https://d1zj8ir38bm4sy.cloudfront.net/wp-content/uploads/2019/10/950x850-akaushi-burger.jpg">';
-    
-    //function fiveStar(){
-    //    for(let i=1; i <= 5; i++){
-    //image + i;
-    //    }
-    //}
+    numberbox();
